@@ -1,0 +1,10 @@
+[
+    {
+      "id": "2",
+      "avatar": "https://maxplayers.net/files/news_imgs/1509470228.jpg",
+      "name": "Alex",
+      "age": 35,
+      "status": "student",
+      "isOnline": true
+    }
+  ]

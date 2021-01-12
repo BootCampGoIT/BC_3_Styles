@@ -1,0 +1,36 @@
+@value redColor from "../../../../index.module.css";
+@value greenColor from "../../../../index.module.css";
+
+.listItem {
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+}
+
+.avatar {
+  height: 100px;
+}
+
+.template {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+}
+
+/* .online {
+  background-color: green;
+}
+.offline {
+  background-color: red;
+} */
+
+.online {
+  composes: template;
+  background-color: greenColor;
+}
+.offline {
+  composes: template;
+  background-color: redColor;
+}
